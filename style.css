@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    width: 100vw;position: relative
+}
+#hours{
+    background-color: red;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    rotate: 180deg;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    transform-origin: top;
+    border-radius: 5px;
+}
+#thoka{
+    background-color: black;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-30%, -50%);
+    width: 20px;
+    border-radius: 10px;
+}
+#minutes{
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transform-origin: top;
+    height: 150px;
+    rotate: 180deg;
+    width: 10px;
+    border-radius: 5px;
+}
+#seconds{
+    background-color: purple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transform-origin: top ;
+    rotate: 180deg;
+    height: 200px;
+    width: 10px;
+    border-radius: 5px;
+}
+#fon{
+    background-color: black;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-49%, -50%);
+    width: 500px;
+    border-radius: 10px;
+}
